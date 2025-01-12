@@ -73,9 +73,11 @@ export const Login = () => {
   return (
     <div className="bg-ui-bg-subtle flex min-h-dvh w-dvw items-center justify-center">
       <div className="m-4 flex w-full max-w-[280px] flex-col items-center">
-        <AvatarBox />
+        {/* <AvatarBox /> */}
+        <img src="https://bluubery.com/assets/logo3.CRcOnteb_ZLNyG.webp" alt="Bluubery Logo" className="h-16 w-auto" />
         <div className="mb-4 flex flex-col items-center">
-          <Heading>{t("login.title")}</Heading>
+          {/* <Heading>{t("login.title")}</Heading> */}
+          <Heading>{"Bluubery Store"}</Heading>
           <Text size="small" className="text-ui-fg-subtle text-center">
             {t("login.hint")}
           </Text>
